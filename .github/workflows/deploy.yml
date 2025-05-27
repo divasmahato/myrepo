@@ -11,7 +11,7 @@ jobs:
 
     env:
       NODE_ENV: production
-      WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
+      WEATHER_API_KEY: 14c614ddf800f71a79fb89318807f7fb
 
     steps:
       - name: Checkout repository
